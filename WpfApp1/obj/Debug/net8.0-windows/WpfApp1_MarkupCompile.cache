@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\App.xaml
-21367527609
+51863842492
 
-8698903437
+11-1415736824
 199-986702192
-MainWindow.xaml;UserControl1.xaml;
+GłównaApka.xaml;KlientLogowanie.xaml;MainWindow.xaml;MainWindow1.xaml;UserControl1.xaml;
 
 False
 

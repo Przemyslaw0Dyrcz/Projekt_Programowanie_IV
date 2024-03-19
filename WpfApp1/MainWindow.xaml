@@ -4,20 +4,21 @@
         xmlns:local="clr-namespace:WpfApp1"
         Title="Wypożyczalnia Filmów" Height="450" Width="800">
     <Grid>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <ListBox Grid.Row="0" Name="CustomerListBox" Margin="10" SelectionChanged="CustomerListBox_SelectionChanged">
+
+        <ListBox Grid.Row="0" x:Name="CustomerListBox" Margin="10,10,0,10" SelectionChanged="KlienciListBox_SelectionChanged">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
                         <TextBlock Text="{Binding Imie}" FontWeight="Bold"/>
                         <TextBlock Text="{Binding Nazwisko}"/>
-                        <TextBlock Text="{Binding IDklienta, StringFormat='ID: {0}'}"/>
+                        <TextBlock Text="{Binding IDklienta, StringFormat=ID: \{0\}}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
@@ -29,6 +30,8 @@
         </StackPanel>
 
         <Button Grid.Row="2" Content="Dodaj nowego klienta" Margin="10" Click="DodajNowegoKlienta_Click"/>
-        <ContentControl x:Name="MainContent"/>
+        <ContentControl x:Name="MainContent" Margin="0,5,0,5" Grid.RowSpan="3">
+
+        </ContentControl>
     </Grid>
 </Window>

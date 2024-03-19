@@ -28,3 +28,9 @@ C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\ref\WpfAp
 C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.lref
 C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\UserControl1.g.cs
 C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\UserControl1.baml
+C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow1.g.cs
+C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow1.baml
+C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\GłównaApka.g.cs
+C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\GłównaApka.baml
+C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\KlientLogowanie.baml
+C:\Users\Przemek\source\repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\KlientLogowanie.g.cs

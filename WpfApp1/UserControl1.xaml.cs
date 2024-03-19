@@ -34,7 +34,9 @@ namespace WpfApp1
 
 
             DodanoKlienta?.Invoke(this, EventArgs.Empty);
+            
         }
+
 
         private void AdresTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
