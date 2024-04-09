@@ -1,0 +1,36 @@
+﻿<Window x:Class="ProjektProgramowanie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Wypożyczalnia Filmów" Height="500" Width="790">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+
+        <ListBox Grid.Row="0" x:Name="CustomerListBox" Margin="10,10,0,10" SelectionChanged="KlienciListBox_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Imie}" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding Nazwisko}"/>
+                        <TextBlock Text="{Binding IDklienta, StringFormat=ID: \{0\}}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
+            <TextBox x:Name="SearchTextBox" Width="200" Margin="0,0,10,0" Text="Wyszukaj po IDklienta"/>
+            <Button Content="Szukaj" Click="Search_Click"/>
+        </StackPanel>
+
+        <Button Grid.Row="2" Content="Dodaj nowego klienta" Margin="10" Click="AddNewKlient_Click"/>
+        <ContentControl x:Name="MainContent" Margin="0,0,0,10" Grid.RowSpan="3">
+
+        </ContentControl>
+    </Grid>
+</Window>
